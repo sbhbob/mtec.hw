@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bC3-xy-gWV">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="x77-ti-nwF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2490" y="98"/>
+        </scene>
+        <!--Log In-->
+        <scene sceneID="ywa-ji-b6w">
+            <objects>
+                <viewController id="Wtz-c1-aY0" customClass="ViewController" customModule="Login" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yiz-w5-cLZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q08-9v-Orr">
+                                <rect key="frame" x="101" y="218" width="213" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="M6x-00-d7W"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J49-5O-p55">
+                                <rect key="frame" x="101" y="260" width="213" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d03-K5-tnh">
+                                <rect key="frame" x="231" y="456" width="133" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="jtA-Hz-6Oz"/>
+                                    <constraint firstAttribute="width" constant="133" id="uhC-sl-xYo"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Forgot Password"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIY-O7-UJb">
+                                <rect key="frame" x="53" y="456" width="137" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="137" id="33j-Q5-Y1F"/>
+                                    <constraint firstAttribute="height" constant="31" id="e1z-cu-M3k"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Forgot Username"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t85-pL-xfQ">
+                                <rect key="frame" x="175" y="382" width="64" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="YQB-Hn-CTY"/>
+                                    <constraint firstAttribute="height" constant="31" id="rdi-mu-Mqj"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Log In"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kTN-G4-JE5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="t85-pL-xfQ" firstAttribute="top" secondItem="J49-5O-p55" secondAttribute="bottom" constant="88" id="6T4-X3-Aev"/>
+                            <constraint firstItem="Q08-9v-Orr" firstAttribute="leading" secondItem="kTN-G4-JE5" secondAttribute="leading" constant="101" id="MaH-ny-jIQ"/>
+                            <constraint firstItem="d03-K5-tnh" firstAttribute="top" secondItem="t85-pL-xfQ" secondAttribute="bottom" constant="43" id="OHV-RO-Oqz"/>
+                            <constraint firstItem="kTN-G4-JE5" firstAttribute="trailing" secondItem="J49-5O-p55" secondAttribute="trailing" constant="100" id="ShJ-vt-oFB"/>
+                            <constraint firstItem="kTN-G4-JE5" firstAttribute="trailing" secondItem="Q08-9v-Orr" secondAttribute="trailing" constant="100" id="T9y-rk-SLU"/>
+                            <constraint firstItem="J49-5O-p55" firstAttribute="leading" secondItem="kTN-G4-JE5" secondAttribute="leading" constant="101" id="qDS-hg-Zpt"/>
+                            <constraint firstItem="aIY-O7-UJb" firstAttribute="top" secondItem="t85-pL-xfQ" secondAttribute="bottom" constant="43" id="yCR-kQ-fUD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Log In" largeTitleDisplayMode="always" id="x9Y-FS-g9c"/>
+                    <connections>
+                        <outlet property="usernameTextField" destination="Q08-9v-Orr" id="73p-Uh-6ta"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0z9-Pc-OCs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1673.913043478261" y="97.767857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JXw-v1-8ca">
+            <objects>
+                <navigationController id="bC3-xy-gWV" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="zWw-33-Vhc">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="35h-yJ-LwF">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="Wtz-c1-aY0" kind="relationship" relationship="rootViewController" id="Ta0-Fb-zWu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CPs-Oi-CE2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="870" y="98"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
