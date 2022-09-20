@@ -34,8 +34,8 @@ class ViewController: UIViewController {
 
     @IBAction func letterButtonPressed(_ sender: UIButton) {
         sender.isEnabled = false
-        let letterString = sender.title(for: .normal)!
-        let letter = Character(letterString.lowercased())
+        let letterString = sender.titleLabel?.text!
+        let letter = Character((letterString?.lowercased())!)
         currentGame.playerGuessed(letter: letter)
         updateGameState()
     }
@@ -48,6 +48,7 @@ class ViewController: UIViewController {
 
     var currentGame: Game!
     
+    //handles wins and losses
     func newRound() {
         if !listOfWords.isEmpty {
             let newWord = listOfWords.removeFirst()
@@ -60,7 +61,7 @@ class ViewController: UIViewController {
             enableLetterButtons(false)
         }
     }
-    
+    //renables buttons after a round
     func enableLetterButtons(_ enable: Bool) {
       for button in letterButtons {
         button.isEnabled = enable
@@ -75,7 +76,7 @@ class ViewController: UIViewController {
         let wordWithSpacing = letters.joined(separator: " ")
         correctWordLabel.text = wordWithSpacing
         scoreLabel.text = "Wins: \(totalWins), Losses:\(totalLosses)"
-        treeImageView.image = UIImage(named: "Tree\(currentGame.incorrectMovesRemaining)")
+        treeImageView.image = UIImage(named: "Tree \(currentGame.incorrectMovesRemaining)")
     }
     
     func updateGameState() {
