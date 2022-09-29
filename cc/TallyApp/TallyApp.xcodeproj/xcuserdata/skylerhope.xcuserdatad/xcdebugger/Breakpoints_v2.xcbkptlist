@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3B2CE3FE-B42A-4A8F-AB98-691D56CE857A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E042065A-9C69-4F15-A605-98DCF6934885"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TallyApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E042065A-9C69-4F15-A605-98DCF6934885 - 7a07fd88d7cb201c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TallyApp.ViewController.xCounter.getter : Swift.Int"
+                  moduleName = "TallyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skylerhope/Documents/cc/TallyApp/TallyApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "E042065A-9C69-4F15-A605-98DCF6934885 - 78afdc7a9c881408"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TallyApp.ViewController.xCounter.setter : Swift.Int"
+                  moduleName = "TallyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skylerhope/Documents/cc/TallyApp/TallyApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "97">
+               </Location>
+               <Location
+                  uuid = "E042065A-9C69-4F15-A605-98DCF6934885 - 71ae898e12660519"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TallyApp.ViewController.xCounter.modify : Swift.Int"
+                  moduleName = "TallyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skylerhope/Documents/cc/TallyApp/TallyApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "E042065A-9C69-4F15-A605-98DCF6934885 - 85d160c0ed970508"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TallyApp.ViewController.xCounter.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TallyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skylerhope/Documents/cc/TallyApp/TallyApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "E042065A-9C69-4F15-A605-98DCF6934885 - b50328a23c387a50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TallyApp.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TallyApp.ViewController"
+                  moduleName = "TallyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skylerhope/Documents/cc/TallyApp/TallyApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "329">
+               </Location>
+               <Location
+                  uuid = "E042065A-9C69-4F15-A605-98DCF6934885 - 753fcd8a03cdd7fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TallyApp.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TallyApp.ViewController&gt;"
+                  moduleName = "TallyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skylerhope/Documents/cc/TallyApp/TallyApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "286">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
